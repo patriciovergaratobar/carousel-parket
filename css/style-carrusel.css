@@ -6,7 +6,6 @@ body {
 }
 .carousel-indicators {
     position: absolute;
-    left: 78%;
     height: 100px;
     width: 100%;
     bottom: 1px;
