@@ -1,0 +1,108 @@
+body { 
+    padding-top: 20px; 
+}
+.carousel{
+    position: relative;
+}
+.carousel-indicators {
+    position: absolute;
+    left: 78%;
+    height: 100px;
+    width: 100%;
+    bottom: 1px;
+}
+.carousel-indicators li{
+    text-indent:0;
+    display:inherit;
+    float:left;
+    width: 13%;
+    height: 50px;
+    margin:5px 0px;
+}
+
+.carousel-indicators  li {
+
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border: 0px solid #fff;
+    border-radius: 0px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.carousel-indicators .active li {
+
+    cursor: pointer;
+    background-color:  #FFB91D;
+    border: 1px solid #FFB91D;
+    border-radius: 0px;
+}
+
+.carousel-indicators li img{
+    width: 95%;
+    height: 50px;
+    border:0px solid rgba(0, 0, 0, 0);
+    padding: 2px;
+}
+.carousel-indicators .active img{
+    border:1px solid #FFB91D;
+    background-color: #FFB91D;
+    outline: 1px solid #FFB91D;
+    padding: 1px;
+}
+
+span.callToAction {
+    color: #FFB91D;
+    font-size: 14;
+    font-weight: 500;
+}
+
+.carousel-caption.carrusel {
+    background-color: #0000006e;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+    padding-left: 10px;
+    bottom: 0px;
+    font-size: 12px;
+}
+
+.carousel-indicators .active{
+    margin:0px 0px;
+    width: 13%;
+    height: 90px;
+}
+.carousel-control.right,
+.carousel-control.left{
+    background-image: none;
+}
+@media screen and (min-width:320px) and (max-width:360px) {
+    .carousel-indicators{
+        top:115px;
+        left:95px;
+    }
+    .carousel-indicators li img{
+        width:95%;
+        height:50px;
+    }
+    .carousel-indicators li{
+        width:20%;
+        height:50px;
+    }
+    .carousel-indicators .active{
+        width:20%;
+        height:50px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:980px){
+    .carousel-indicators{
+        top:240px;
+        left:213px;
+    }
+}
